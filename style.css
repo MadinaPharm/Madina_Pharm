@@ -165,8 +165,15 @@ footer p {
     box-sizing: border-box;
 }
 
-color: rgba(0, 123, 255, 1);
-
 @media (max-width: 768px) {
-    /* Mobil uchun rang yoki o‘lchamlarni sozlash */
+    /* Mobil dizayn uchun o‘lcham va joylashuvni moslashtiring */
+    .product {
+        flex-direction: column; /* Mahsulotlarni ustma-ust qo‘yish */
+        align-items: center;
+    }
+    .product img {
+        width: 80%; /* Kichikroq rasm o‘lchamlari */
+    }
+    /* Qo‘shimcha o‘lcham yoki ranglarni qo‘shish */
 }
+
