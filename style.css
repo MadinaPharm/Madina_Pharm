@@ -159,3 +159,14 @@ footer p {
     margin: 20px 0;      /* Yuqoridan va pastdan bo‘shliq */
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+color: rgba(0, 123, 255, 1);
+
+@media (max-width: 768px) {
+    /* Mobil uchun rang yoki o‘lchamlarni sozlash */
+}
