@@ -1,0 +1,161 @@
+/* Asosiy ranglar va fontlar */
+:root {
+    --primary-color: #4CAF50; /* Yashil rang */
+    --secondary-color: #fff;
+    --font-family: 'Arial', sans-serif;
+}
+
+/* Umumiy sozlamalar */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    background-color: #f4f4f4;
+}
+
+/* Bosh sahifa va navigatsiya */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 20px;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+nav ul {
+    list-style-type: none;   /* Belgilarni olib tashlash */
+    margin: 0;
+    padding: 0;
+    display: flex;           /* Elementlarni yonma-yon joylashtirish */
+    justify-content: center; /* Markazlashtirish */
+}
+
+nav li {
+    margin: 0 15px;         /* Har bir element orasida bo‘shliq */
+}
+
+nav a {
+    font-size: 1.2em;         /* Yozuv o‘lchami */
+    text-decoration: none;    /* Ostidan chiziqni olib tashlash */
+    color: #333;              /* Yozuv rangi */
+    transition: color 0.3s;   /* Rangni o‘zgartirishda o‘tish effekti */
+}
+
+nav a:hover {
+    color: #007BFF;           /* Hoverda rangni o‘zgartirish */
+}
+
+.contact-us {
+    font-weight: bold;        /* Yozuvni qalin qilish */
+    color: #1d1c1c;           /* Yozuv rangini belgilash (ko‘k rang) */
+}
+
+/* Hero section */
+.hero {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Mahsulotlar uchun stil */
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.product {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product p {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 10px;
+}
+
+.products h2 {
+    color: #000;  /* Matn rangini qora qilib belgilaymiz */
+    font-size: 2em;  /* Matnning o'lchamini oshiramiz */
+    text-align: center;  /* Matnni markazlashtiramiz */
+}
+
+/* Mahsulotlar sarlavhasi */
+.products h2 {
+    color: #000;
+    font-size: 2em;
+    text-align: center; /* Matnni markazlashtirish */
+}
+
+/* Mahsulotlar konteyneri */
+.products {
+    display: flex;                  /* Flexbox ishlatish */
+    flex-direction: column;         /* Mahsulotlarni vertikal ravishda joylashtirish */
+    gap: 20px;                      /* Mahsulotlar orasidagi bo'shliq */
+    padding: 20px;
+    align-items: flex-start;        /* Mahsulotlarni chap tomonga joylashtirish */
+}
+
+/* Har bir mahsulot uchun konteyner */
+.product {
+    display: flex;                  /* Flexbox yordamida rasm va nomni yonma-yon joylashtirish */
+    align-items: center;            /* Rasm va nomni vertikal markazlashtirish */
+    gap: 10px;                      /* Rasm va nom orasidagi bo'shliq */
+    width: 100%;                    /* Mahsulotlar uchun kenglik */
+}
+
+/* Mahsulotlar rasmlari */
+.product img {
+    width: 200px;                   /* Rasmning kengligini kattaroq qilish */
+    max-width: 320px;               /* Rasmlarning maksimal kengligini 180px qilib cheklash */
+    height: auto;                   /* Rasmning balandligini avtomatik saqlash */
+    border-radius: 8px;
+}
+
+/* Mahsulotlar nomi */
+.product p {
+    font-size: 1.2em;
+    color: #353333;
+    margin: 0;                      /* Nom ostidagi bo'shliqni olib tashlash */
+}
+
+/* Dori buyurtma berish uchun yozuvi */
+footer p {
+    font-size: 1.5em;    /* Yozuvning o‘lchamini kattaroq qilish */
+    color: #fff;         /* Yozuv rangini oq qilish */
+    text-align: center;  /* Yozuvni markazlashtirish */
+    margin: 20px 0;      /* Yuqoridan va pastdan bo‘shliq */
+}
+
