@@ -173,20 +173,16 @@ footer p {
     /* Footer matnini kichikroq qilish */
     footer p {
         font-size: 0.9em; /* Kichik ekranlarda yozuv o'lchamini moslashtirish */
-        text-align: center;      /* Mahsulot nomini markazlashtirish */
     }
 
     /* Mahsulotlar bo'limi elementlarini moslashtirish */
     .products {
         flex-direction: column; /* Kichik ekranlar uchun mahsulotlarni ustma-ust joylashtirish */
-        align-items: center;     /* Mahsulotlarni markazlashtirish */
-        gap: 20px;               /* Mahsulotlar orasidagi bo'shliq */
+        align-items: center;
     }
 
     .product {
-        width: 100%;             /* Mahsulotlar kengligini ekranga moslashtirish */
-        max-width: none;         /* Mahsulotning maksimal kengligini olib tashlash */
-        flex-direction: row;     /* Mahsulot nomi va rasmini yonma-yon joylashtirish */
+        width: 90%; /* Har bir mahsulot kartasining kengligini ekran kengligiga moslashtirish */
     }
 
     /* Narx va "Buyurtma berish uchun" yozuvlarini kattalashtirish */
