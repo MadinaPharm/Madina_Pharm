@@ -162,14 +162,30 @@ footer p {
 }
 
 @media (max-width: 768px) {
-    /* Mobil dizayn uchun o‘lcham va joylashuvni moslashtiring */
-    .product {
-        flex-direction: column; /* Mahsulotlarni ustma-ust qo‘yish */
-        align-items: center;
+    /* Sahifadagi asosiy matn o‘lchamini oshirish */
+    body {
+        font-size: 1.1em; /* Asosiy matn o‘lchamini biroz kattaroq qilish */
     }
+    
+    .navbar a {
+        font-size: 0.85em; /* Mobil qurilmalar uchun kichikroq shrift o‘lchami */
+        padding: 6px 10px; /* Bo'shliqni ham moslashtirish */
+    }
+
+    /* Mahsulotlar rasmlari */
     .product img {
-        width: 80%; /* Kichikroq rasm o‘lchamlari */
+        width: 120px; /* Kattaroq rasm kengligi */
+        height: auto;
     }
-    /* Qo‘shimcha o‘lcham yoki ranglarni qo‘shish */
+
+    /* Narx va "Buyurtma berish uchun" yozuvlarini kattalashtirish */
+    .price, .order-text {
+        font-size: 1.1em;
+    }
+
+    /* "Dori buyurtma berish uchun" matni */
+    .phone-number {
+        font-size: 1.3em; /* Telefon raqamini kattalashtirish */
+    }
 }
 
