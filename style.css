@@ -147,13 +147,13 @@ footer p {
     }
 
     nav a {
-        font-size: 0.8em; /* Kichikroq shrift o'lchami */
+        font-size: 0.6em; /* Kichikroq shrift o'lchami */
         padding: 5px; /* Navigatsiya linklarining bo'shligini moslashtirish */
         color: #333;
     }
     
     .contact-us {
-        font-size: 0.8em; /* Mobil qurilmalarda shrift o'lchamini kichiklashtirish */
+        font-size: 0.7em; /* Mobil qurilmalarda shrift o'lchamini kichiklashtirish */
     }
 
     .hero h1 {
