@@ -164,12 +164,12 @@ footer p {
 @media (max-width: 768px) {
     /* Sahifadagi asosiy matn o‘lchamini oshirish */
     body {
-        font-size: 1.1em; /* Asosiy matn o‘lchamini biroz kattaroq qilish */
+        font-size: 0.85em; /* Asosiy matn o‘lchamini biroz kattaroq qilish */
     }
-    
+
     .navbar a {
         font-size: 0.85em; /* Mobil qurilmalar uchun kichikroq shrift o‘lchami */
-        padding: 6px 10px; /* Bo'shliqni ham moslashtirish */
+        padding: 8px 12px; /* Bo'shliqni ham moslashtirish */
     }
 
     /* Mahsulotlar rasmlari */
