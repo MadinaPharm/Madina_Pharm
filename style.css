@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: var(--font-family);
-    background-color: #f4f4f4;
+    background-color: #a7e989;
 }
 
 /* Bosh sahifa va navigatsiya */
@@ -37,7 +37,7 @@ nav li {
 nav a {
     font-size: 1.2em;         /* Yozuv o‘lchami */
     text-decoration: none;    /* Ostidan chiziqni olib tashlash */
-    color: #333;              /* Yozuv rangi */
+    color: #1a1919;              /* Yozuv rangi */
     transition: color 0.3s;   /* Rangni o‘zgartirishda o‘tish effekti */
 }
 
@@ -46,8 +46,9 @@ nav a:hover {
 }
 
 .contact-us {
-    font-weight: bold;        /* Yozuvni qalin qilish */
-    color: #170638;           /* Yozuv rangini belgilash (ko‘k rang) */
+    font-size: 0.9em; /* Kichikroq shrift o'lchami */
+    font-weight: bold;
+    color: #170638;
 }
 
 /* Hero section */
@@ -126,7 +127,7 @@ footer {
 
 /* Dori buyurtma berish uchun yozuvi */
 footer p {
-    font-size: 1.5em;    /* Yozuvning o‘lchamini kattaroq qilish */
+    font-size: 1em;    /* Yozuvning o‘lchamini kattaroq qilish */
     color: #fff;         /* Yozuv rangini oq qilish */
     text-align: center;  /* Yozuvni markazlashtirish */
     margin: 20px 0;      /* Yuqoridan va pastdan bo‘shliq */
@@ -146,14 +147,40 @@ footer p {
     }
 
     nav a {
-        font-size: 0.85em; /* Mobil qurilmalar uchun kichikroq shrift o‘lchami */
-        padding: 8px 12px; /* Bo'shliqni ham moslashtirish */
+        font-size: 0.8em; /* Kichikroq shrift o'lchami */
+        padding: 5px; /* Navigatsiya linklarining bo'shligini moslashtirish */
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+    }
+    
+    .hero h1 {
+        font-size: 2em; /* Bosh sarlavhani kichikroq qilish */
+    }
+
+    .hero p {
+        font-size: 1em; /* Paragrafni kichikroq qilish */
     }
 
     /* Mahsulotlar rasmlari */
     .product img {
-        width: 120px; /* Kattaroq rasm kengligi */
+        width: 100px; /* Kattaroq rasm kengligi */
         height: auto;
+    }
+
+     /* Footer matnini kichikroq qilish */
+    footer p {
+        font-size: 0.9em; /* Kichik ekranlarda yozuv o'lchamini moslashtirish */
+    }
+
+    /* Mahsulotlar bo'limi elementlarini moslashtirish */
+    .products {
+        flex-direction: column; /* Kichik ekranlar uchun mahsulotlarni ustma-ust joylashtirish */
+        align-items: center;
+    }
+
+    .product {
+        width: 90%; /* Har bir mahsulot kartasining kengligini ekran kengligiga moslashtirish */
     }
 
     /* Narx va "Buyurtma berish uchun" yozuvlarini kattalashtirish */
