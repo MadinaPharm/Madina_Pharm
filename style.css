@@ -1,6 +1,6 @@
 /* Asosiy ranglar va fontlar */
 :root {
-    --primary-color: #4CAF50; /* Yashil rang */
+    --primary-color: #5DAE49; /* Yashil rang */
     --secondary-color: #fff;
     --font-family: 'Arial', sans-serif;
 }
@@ -47,7 +47,7 @@ nav a:hover {
 
 .contact-us {
     font-weight: bold;        /* Yozuvni qalin qilish */
-    color: #1d1c1c;           /* Yozuv rangini belgilash (ko‘k rang) */
+    color: #170638;           /* Yozuv rangini belgilash (ko‘k rang) */
 }
 
 /* Hero section */
@@ -70,42 +70,18 @@ nav a:hover {
 /* Footer */
 footer {
     text-align: center;
-    background-color: #333;
+    background-color: #033155;
     color: #fff;
     padding: 20px;
 }
 
-/* Mahsulotlar uchun stil */
+/* Mahsulotlar bo'limi */
 .products {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 20px;
     background-color: #f4f4f4;
-}
-
-.product {
-    width: 50%;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.product img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-.product p {
-    font-size: 1.2em;
-    color: #333;
-    margin-top: 10px;
-}
-
-.products h2 {
-    color: #000;  /* Matn rangini qora qilib belgilaymiz */
-    font-size: 2em;  /* Matnning o'lchamini oshiramiz */
-    text-align: center;  /* Matnni markazlashtiramiz */
 }
 
 /* Mahsulotlar sarlavhasi */
@@ -130,12 +106,13 @@ footer {
     align-items: center;            /* Rasm va nomni vertikal markazlashtirish */
     gap: 10px;                      /* Rasm va nom orasidagi bo'shliq */
     width: 100%;                    /* Mahsulotlar uchun kenglik */
+    margin-bottom: 20px;            /* Mahsulotlar orasidagi bo‘shliq */
 }
 
 /* Mahsulotlar rasmlari */
 .product img {
     width: 200px;                   /* Rasmning kengligini kattaroq qilish */
-    max-width: 320px;               /* Rasmlarning maksimal kengligini 180px qilib cheklash */
+    max-width: 320px;               /* Rasmlarning maksimal kengligini 320px qilib cheklash */
     height: auto;                   /* Rasmning balandligini avtomatik saqlash */
     border-radius: 8px;
 }
@@ -155,19 +132,20 @@ footer p {
     margin: 20px 0;      /* Yuqoridan va pastdan bo‘shliq */
 }
 
+/* Umumiy reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Mobil optimizatsiya */
 @media (max-width: 768px) {
-    /* Sahifadagi asosiy matn o‘lchamini oshirish */
     body {
         font-size: 0.85em; /* Asosiy matn o‘lchamini biroz kattaroq qilish */
     }
 
-    .navbar a {
+    nav a {
         font-size: 0.85em; /* Mobil qurilmalar uchun kichikroq shrift o‘lchami */
         padding: 8px 12px; /* Bo'shliqni ham moslashtirish */
     }
@@ -183,9 +161,15 @@ footer p {
         font-size: 0.9em;
     }
 
-    /* "Dori buyurtma berish uchun" matni */
     .phone-number {
         font-size: 0.9em; /* Telefon raqamini kattalashtirish */
     }
 }
 
+.products-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    border-bottom: 2px solid #000;
+}
