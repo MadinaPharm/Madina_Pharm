@@ -1,7 +1,7 @@
 /* Asosiy ranglar va fontlar */
 :root {
     --primary-color: #5DAE49; /* Yashil rang */
-    --secondary-color: #fff;
+    --secondary-color: #ffffff;
     --font-family: 'Arial', sans-serif;
 }
 
@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: var(--font-family);
-    background-color: #a7e989;
+    background-color: #a5e784;
 }
 
 /* Bosh sahifa va navigatsiya */
@@ -46,7 +46,7 @@ nav a:hover {
 }
 
 .contact-us {
-    font-size: 0.9em; /* Kichikroq shrift o'lchami */
+    font-size: 0.8em; /* Kichikroq shrift o'lchami */
     font-weight: bold;
     color: #170638;
 }
@@ -72,7 +72,7 @@ nav a:hover {
 footer {
     text-align: center;
     background-color: #033155;
-    color: #fff;
+    color: #ffffff;
     padding: 20px;
 }
 
@@ -82,7 +82,7 @@ footer {
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: #e5e2fa;
 }
 
 /* Mahsulotlar sarlavhasi */
@@ -141,13 +141,13 @@ footer p {
 }
 
 /* Mobil optimizatsiya */
-@media (max-width: 768px) {
+@media (max-width: 700px) {
     body {
-        font-size: 0.85em; /* Asosiy matn o‘lchamini biroz kattaroq qilish */
+        font-size: 0.9em; /* Asosiy matn o‘lchamini biroz kattaroq qilish */
     }
 
     nav a {
-        font-size: 0.8em; /* Kichikroq shrift o'lchami */
+        font-size: 0.9em; /* Kichikroq shrift o'lchami */
         padding: 5px; /* Navigatsiya linklarining bo'shligini moslashtirish */
     text-decoration: none;
     color: #333;
